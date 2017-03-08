@@ -18,3 +18,8 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+*.txt
+*.xlsx
+
+#Zipped Fab Files
+*.zip
