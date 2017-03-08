@@ -5,5 +5,4 @@ Circuit utilizes the compact size of the Arduino Nano to round appropriate light
 MOSFET drivers help boost the current and voltage which will be used to amplifier the overall wattage of the system to support 24 watts
 
 #3d View
-![alt tag](https://github.com/ChristianAguilar614/GamingLights-PCB/blob/master/GamingLights.png)
-
+![alt tag](https://github.com/ChristianAguilar614/GamingLights-PCB/blob/master/Images/GamingLights.png)
