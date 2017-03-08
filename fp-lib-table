@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name AudioConn)(type KiCad)(uri "D:\\Christian\\Box Sync\\Designs\\KiCAD Designs\\gamingLightsShield\\gamingLightsShield\\")(options "")(descr "3.5mm Stereo Jack"))
+)

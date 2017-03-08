@@ -1,0 +1,186 @@
+*PADS-PCB*
+*PART*
+ R9 Resistors_SMD:R_1206_HandSoldering
+ R6 Resistors_SMD:R_1206_HandSoldering
+ R3 Resistors_SMD:R_1206_HandSoldering
+ P1 Socket_Strips:Socket_Strip_Straight_1x15
+ P2 Socket_Strips:Socket_Strip_Straight_1x15
+ P4 Pin_Headers:Pin_Header_Straight_1x02
+ P3 Pin_Headers:Pin_Header_Straight_1x02
+ JP2 Pin_Headers:Pin_Header_Straight_1x03
+ JP1 Pin_Headers:Pin_Header_Straight_1x03
+ JP3 Pin_Headers:Pin_Header_Straight_1x03
+ P6 Pin_Headers:Pin_Header_Straight_1x02
+ P5 Pin_Headers:Pin_Header_Straight_1x01
+ TP2 Pin_Headers:Pin_Header_Straight_1x01
+ TP1 Pin_Headers:Pin_Header_Straight_1x01
+ TP4 Pin_Headers:Pin_Header_Straight_1x01
+ TP3 Pin_Headers:Pin_Header_Straight_1x01
+ J1 Connect:BARREL_JACK
+ K1 AudioConn:AudioJack
+ R10 Resistors_SMD:R_1206_HandSoldering
+ R11 Resistors_SMD:R_1206_HandSoldering
+ C1 Capacitors_SMD:C_0805_HandSoldering
+ U1 Housings_DIP:DIP-8_W7.62mm
+ R14 Resistors_SMD:R_1206_HandSoldering
+ C8 Capacitors_SMD:C_0805_HandSoldering
+ C6 Capacitors_SMD:C_0805_HandSoldering
+ R12 Resistors_SMD:R_1206_HandSoldering
+ C4 Capacitors_SMD:C_0805_HandSoldering
+ C2 Capacitors_SMD:C_0805_HandSoldering
+ U2 Housings_DIP:DIP-8_W7.62mm
+ R15 Resistors_SMD:R_1206_HandSoldering
+ C9 Capacitors_SMD:C_0805_HandSoldering
+ C7 Capacitors_SMD:C_0805_HandSoldering
+ R13 Resistors_SMD:R_1206_HandSoldering
+ C5 Capacitors_SMD:C_0805_HandSoldering
+ C3 Capacitors_SMD:C_0805_HandSoldering
+ D1 Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10
+ K2 AudioConn:AudioJack
+ Q3 TO_SOT_Packages_SMD:SOT-223
+ Q2 TO_SOT_Packages_SMD:SOT-223
+ Q1 TO_SOT_Packages_SMD:SOT-223
+
+*NET*
+*SIGNAL* Net-(C4-Pad1)
+ U1.5
+ C4.1
+*SIGNAL* Net-(C4-Pad2)
+ R12.1
+ C4.2
+*SIGNAL* /D3
+ U1.7
+ P1.6
+ U2.7
+*SIGNAL* /D2
+ U2.4
+ P1.5
+ U1.4
+*SIGNAL* +5V
+ R14.2
+ U1.1
+ C3.1
+ TP2.1
+ P2.4
+ C2.1
+ U2.1
+ R15.2
+*SIGNAL* GND
+ K1.3
+ Q3.3
+ Q1.3
+ P1.4
+ Q2.3
+ C3.2
+ C7.2
+ U2.2
+ P2.2
+ K2.3
+ C6.2
+ C8.2
+ C9.2
+ C2.2
+ D1.2
+ TP4.1
+ U1.2
+*SIGNAL* /AudioInRight
+ K1.1
+ R13.2
+ K2.1
+ R10.2
+*SIGNAL* /AudioInLeft
+ R11.2
+ R12.2
+ K2.2
+ K1.2
+*SIGNAL* Net-(C1-Pad2)
+ C1.2
+ R11.1
+ R10.1
+*SIGNAL* Net-(C1-Pad1)
+ C1.1
+ JP1.3
+*SIGNAL* Net-(C8-Pad1)
+ U1.8
+ C8.1
+ R14.1
+*SIGNAL* Net-(C6-Pad1)
+ C6.1
+ U1.6
+*SIGNAL* Net-(D1-Pad1)
+ J1.2
+ J1.1
+ D1.1
+*SIGNAL* /DigitalBandsRight
+ U2.3
+ JP3.3
+*SIGNAL* /DigitalBandsLeft
+ JP2.3
+ U1.3
+*SIGNAL* /D9
+ Q3.1
+ P1.12
+*SIGNAL* Net-(Q1-Pad2)
+ R3.2
+ Q1.2
+*SIGNAL* /D11
+ Q1.1
+ P1.14
+*SIGNAL* Net-(Q2-Pad2)
+ R6.2
+ Q2.2
+*SIGNAL* /D10
+ Q2.1
+ P1.13
+*SIGNAL* Net-(Q3-Pad2)
+ Q3.2
+ R9.2
+*SIGNAL* +12V
+ TP1.1
+ P2.1
+ P3.1
+ J1.3
+*SIGNAL* Net-(C9-Pad1)
+ C9.1
+ R15.1
+ U2.8
+*SIGNAL* Net-(C5-Pad2)
+ R13.1
+ C5.2
+*SIGNAL* Net-(C5-Pad1)
+ C5.1
+ U2.5
+*SIGNAL* Net-(C7-Pad1)
+ U2.6
+ C7.1
+*SIGNAL* +3.3V
+ P2.14
+ TP3.1
+*SIGNAL* Net-(P3-Pad2)
+ P3.2
+ R3.1
+*SIGNAL* Net-(P4-Pad1)
+ P4.1
+ R6.1
+*SIGNAL* Net-(P4-Pad2)
+ R9.1
+ P4.2
+*SIGNAL* /A0_Right
+ P2.12
+ JP3.2
+*SIGNAL* /A1_Left
+ JP2.2
+ P2.11
+*SIGNAL* /AudioByPass
+ P2.10
+ JP1.2
+*SIGNAL* /AudioBypass_Ext
+ P5.1
+ JP1.1
+*SIGNAL* /A1_EXT
+ P6.1
+ JP2.1
+*SIGNAL* /A0_EXT
+ P6.2
+ JP3.1
+*END*

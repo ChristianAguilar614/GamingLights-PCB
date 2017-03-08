@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-11022016-090440";"";
+"REFERENCE";"SJ-2523-SMT";"";
+"TraceParts.PartTitle";"SJ-252X-SMT Series - 2.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector";"";
+"TraceParts.InstanceId";"10-11022016-0904408E58ZZQ4831CXN6MRLSNK7UC9";"";
+"DESIGN";"2.5 mm Surface Mount Stereo Jack, 3 Pin Right-Angle";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"CUI";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"CUI:10-11022016-090440";"";
